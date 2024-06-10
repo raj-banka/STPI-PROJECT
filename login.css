@@ -18,6 +18,11 @@ input {
   min-height: 100vh;
   overflow: hidden;
 }
+#logo1{
+  width: 90px;
+  margin-left: 980px;
+  margin-top: 40px;
+}
 
 .forms-container {
   position: absolute;
@@ -306,6 +311,9 @@ form.sign-in-form {
 
   .left-panel {
     grid-row: 1 / 2;
+  }
+  .heading{
+    color: red !important;
   }
 
   .image {
